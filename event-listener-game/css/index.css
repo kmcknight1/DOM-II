@@ -145,6 +145,9 @@ p {
   color: #0E1812;
   text-shadow: 0.5px 0.5px 2px #47785A;
 }
+a {
+  text-decoration: none;
+}
 body {
   background-color: #72C090;
   display: flex;
@@ -172,6 +175,7 @@ body .container .head {
 }
 body .container .head .intro {
   margin-top: 5%;
+  margin-bottom: 3%;
   text-align: center;
   line-height: 2rem;
 }
