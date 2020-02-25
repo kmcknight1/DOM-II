@@ -1,0 +1,41 @@
+body {
+    background-color: @background-color;
+    .center();
+
+    .container {
+        .center();
+        max-width: 90%;
+        margin-top: 15%;
+
+
+        .head {
+            .center();
+            flex-flow: column nowrap;
+            background-color: @lightmint;
+            padding: 5%;
+            .border-radius(20px);
+            box-shadow: inset 10px 10px 20px @whitemint, 5px 5px 20px @mediummint;
+
+            .intro {
+                margin-top: 5%;
+                margin-bottom: 3%;
+                text-align: center;
+                line-height: 2rem;
+            }
+
+            .start-btn {
+               
+                .button-creator(200px, 70px, @btn-color, @font-color, 2rem);
+                font-family: @head-font;
+                box-shadow: inset 4px 4px 5px @lightmint, 2px 2px 5px @mediummint;
+                margin-top: 5%;
+                text-shadow: 1px 1px 2px grey;
+                outline: none;
+
+                &:hover {
+                    text-shadow: 1px 1px 2px @darkmint;
+                }
+            }
+        }
+    }
+}
